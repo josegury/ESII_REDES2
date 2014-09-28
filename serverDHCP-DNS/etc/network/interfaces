@@ -1,0 +1,11 @@
+auto lo
+iface lo inet loopback
+
+#hay que tener cuidao con las eth0-> tiene que ser la de la mascara de red 00:10
+
+auto inter
+iface inter inet static
+	address 10.128.red.2
+	netmask 255.255.248.0
+	network 10.128.red.0
+	gateway 10.128.red.1

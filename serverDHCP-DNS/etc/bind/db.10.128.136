@@ -1,0 +1,13 @@
+@                       86400   IN      SOA    servidor1.red-rednombre.lab.    master@red-rednombre.lab. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+
+@               86400   IN      NS      servidor1.red-rednombre.lab.
+2               86400   IN      PTR     servidor1.red-rednombre.lab.
+3               86400   IN      PTR     servidor2.red-rednombre.lab.
+1               86400   IN      PTR     router.red-rednombre.lab.
+
